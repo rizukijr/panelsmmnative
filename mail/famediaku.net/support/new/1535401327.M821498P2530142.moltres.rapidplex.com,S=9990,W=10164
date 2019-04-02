@@ -1,0 +1,174 @@
+Return-Path: <security@mail.instagram.com>
+Delivered-To: support@famediaku.net
+Received: from moltres.rapidplex.com
+	by moltres.rapidplex.com with LMTP id 2MatMG9dhFtemyYA5gKwhQ
+	for <support@famediaku.net>; Tue, 28 Aug 2018 03:22:07 +0700
+Return-path: <security@mail.instagram.com>
+Envelope-to: support@famediaku.net
+Delivery-date: Tue, 28 Aug 2018 03:22:07 +0700
+Received: from 66-220-155-139.mail-mail.facebook.com ([66.220.155.139]:36377 helo=mx-out.facebook.com)
+	by moltres.rapidplex.com with esmtps (TLSv1:ECDHE-RSA-AES128-SHA:128)
+	(Exim 4.91)
+	(envelope-from <security@mail.instagram.com>)
+	id 1fuO1T-00Ac5N-Hi
+	for support@famediaku.net; Tue, 28 Aug 2018 03:22:07 +0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mail.instagram.com;
+	s=s1024-2013-q3; t=1535401277;
+	bh=nePLn1auO39aK2yxDMXPolCyN+85TBg8rd56Ur1oF5M=;
+	h=Date:To:Subject:From:MIME-Version:Content-Type;
+	b=hyx/NAlEp0I7I3io9syRINIviGvblku/UkiDO2ofh231chBAX3tG9gzuz7AZSaLvq
+	 R3tJoNKQfTqO9UNy6JPd6aBpywkftnOJwcTZ/KmjFLwQBPtOByzhZyh4/fSXpLaBy8
+	 ZNM3O+6rh0ECFqleIA6pfK+nDG4M3mpfY6zFNa1I=
+Received: from facebook.com (PMjdywdY2NkIH/BzV+vVbo149Wa0gKQSwey2JNov9hMoZzfy3Pw1igw83xNA5uoF 2401:db00:0030:802e:face:0000:0019:0000)
+ by facebook.com with Thrift id c0f1a6f4aa3611e8aec5248a07b1115c-b3dfa958;
+ Mon, 27 Aug 2018 13:21:17 -0700
+X-Facebook: from 2401:db00:30:70de:face:0:6c:0 ([MTI3LjAuMC4x]) 
+	by thrift.facebook.com with HTTP (ZuckMail);
+Date: Mon, 27 Aug 2018 13:21:17 -0700
+To: support@famediaku.net
+Subject: Email Changed on Instagram
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+From: "Instagram" <security@mail.instagram.com>
+Reply-to: Instagram <security@mail.instagram.com>
+Errors-To: security@mail.instagram.com
+X-Facebook-Notify: ig_contact_point_changed; mailid=574702e282159G24bc2d55ed5c1aG5747077be242bG826
+List-Unsubscribe: <https://www.facebook.com/o.php?k=AS0XEVkwxozeayS_&e=support%40famediaku.net&mid=574702e282159G24bc2d55ed5c1aG5747077be242bG826>
+Feedback-ID: 9999:ig_contact_point_changed:Facebook
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+Message-ID: <2850199039f3930e75087382b53a17dd@489c26960a6127833bed7ddbdebbce22c570eb30a4e7ffb13f47f928db0416f1>
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+X-Spam-Status: No, score=-13.0
+X-Spam-Score: -129
+X-Spam-Bar: -------------
+X-Ham-Report: Spam detection software, running on the system "moltres.rapidplex.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Facebook Hi izu_tolandona, The email on your Instagram account
+    was changed from support@famediaku.net at 13:19 (PDT) on Monday, August 27
+    2018. [...] 
+ 
+ Content analysis details:   (-13.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 TVD_RCVD_IP            Message was received from an IP address
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF white-list
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM white-list
+  1.5 KAM_MXURI              URI: URI begins with a mail exchange prefix, i.e. mx.[...]
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.5 ENV_AND_HDR_SPF_MATCH  Env and Hdr From used in default SPF WL Match
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay lines
+X-Spam-Flag: NO
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional =
+//EN"><html><head><title>Facebook</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dutf-8" /><style>@media all and (max-width: =
+480px){*[class].ib_t{min-width:100% =
+!important}*[class].ib_row{display:block =
+!important}*[class].ib_ext{display:block !important;padding:10px 0 5px =
+0;vertical-align:top !important;width:100% =
+!important}*[class].ib_img,*[class].ib_mid{vertical-align:top =
+!important}*[class].mb_blk{display:block =
+!important;padding-bottom:10px;width:100% =
+!important}*[class].mb_hide{display:none =
+!important}*[class].mb_inl{display:inline =
+!important}*[class].d_mb_flex{display:block !important}}.d_mb_show{display=
+:none}.d_mb_show_center{display:table;margin:auto}.d_mb_flex{display:flex}=
+@media only screen and (max-device-width: 480px){.d_mb_hide{display:none =
+!important}.d_mb_show{display:block !important}.d_mb_flex{display:block =
+!important}}.mb_text h1,.mb_text h2,.mb_text h3,.mb_text h4,.mb_text =
+h5,.mb_text h6{line-height:normal}.mb_work_text =
+h1{font-size:18px;line-height:normal;margin-top:4px}.mb_work_text =
+h2,.mb_work_text =
+h3{font-size:16px;line-height:normal;margin-top:4px}.mb_work_text =
+h4,.mb_work_text h5,.mb_work_text =
+h6{font-size:14px;line-height:normal}.mb_work_text =
+a{color:#1270e9}.mb_work_text p{margin-top:4px}</style></head><body =
+style=3D"margin:0;padding:0;" dir=3D"ltr" bgcolor=3D"#ffffff"><table =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" =
+id=3D"email_table" style=3D"border-collapse:collapse;"><tr><td =
+id=3D"email_content" style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;background:#ffffff;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr style=3D""><td height=3D"20" =
+style=3D"line-height:20px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+height=3D"1" colspan=3D"3" style=3D"line-height:1px;"></td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;border:solid 1px =
+white;margin:0 auto 5px auto;padding:3px =
+0;text-align:center;html_width:100%;width:430px;"><tr><td width=3D"15px" =
+style=3D"width:15px;"></td><td =
+style=3D"line-height:0px;width:400px;padding:0 0 15px 0;"><table =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td =
+style=3D"width:100%;text-align:left;height:33px;"><img height=3D"33" =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/QfyICuuB4pg.png" =
+style=3D"border:0;" /></td></tr></table></td><td width=3D"15px" =
+style=3D"width:15px;"></td></tr><tr><td width=3D"15px" =
+style=3D"width:15px;"></td><td style=3D"border-top:solid 1px =
+#c8c8c8;"></td><td width=3D"15px" =
+style=3D"width:15px;"></td></tr></table></td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"430" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;margin:0 auto 0 =
+auto;"><tr><td style=3D""><table border=3D"0" width=3D"430px" =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;margin:0 auto 0 auto;width:430px;"><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><tr =
+style=3D""><td style=3D""><table border=3D"0" width=3D"100%" =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D""><table border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td width=3D"20" =
+style=3D"display:block;width:20px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D""><p =
+style=3D"padding:0;margin:10px 0 10px 0;color:#565a5c;font-size:18px;">Hi =
+izu_tolandona,</p><p style=3D"padding:0;margin:10px 0 10px =
+0;color:#565a5c;font-size:18px;"><span>The email on your Instagram account =
+was changed from <span style=3D"color:#2b5a83;" =
+id=3D"body_email">support&#064;famediaku.net</span> at 13:19 (PDT) on =
+Monday, August 27 2018.</span></p><p style=3D"padding:0;margin:10px 0 10px =
+0;color:#565a5c;font-size:18px;">Your new email is <span =
+style=3D"color:#2b5a83;" =
+id=3D"body_email">izutolandona21&#064;gmail.com</span>. If you didn&#039;t =
+change your email address, <a href=3D"https://instagram.com/accounts/disav=
+ow/y43y8q/xmtLDIow/?re=3Dc3VwcG9ydEBmYW1lZGlha3UubmV0&amp;ce=3DZW1haWxfY2h=
+hbmdlZA&amp;ndid=3D574702e282159G24bc2d55ed5c1aG5747077be242bG826" =
+style=3D"color:#3b5998;text-decoration:none;">revert this =
+change</a>.</p></td></tr></table></td><td width=3D"20" =
+style=3D"display:block;width:20px;">&nbsp;&nbsp;&nbsp;</td></tr></table></=
+td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"430px" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;margin:0 auto 0 =
+auto;width:430px;"><tr style=3D""><td height=3D"30" =
+style=3D"line-height:30px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+width=3D"20" =
+style=3D"display:block;width:20px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><div style=3D"color:#abadae;font-size:12px;margin:0 auto 5px =
+auto;">=C2=A9 Instagram, 1 Hacker Way, Menlo Park, CA 94025<br =
+/></div><div style=3D"color:#abadae;font-size:12px;margin:0 auto 5px =
+auto;">This message was sent to <a style=3D"color:#abadae;text-decoration:=
+underline;">support&#064;famediaku.net</a> and intended for izu_tolandona. =
+<br /></div></td><td width=3D"20" style=3D"display:block;width:20px;">&nbs=
+p;&nbsp;&nbsp;</td></tr></table></td></tr><tr style=3D""><td height=3D"20" =
+style=3D"line-height:20px;" colspan=3D"3">&nbsp;</td></tr></table><span =
+style=3D""><img src=3D"https://www.facebook.com/email_open_log_pic.php?mid=
+=3D574702e282159G24bc2d55ed5c1aG5747077be242bG826" =
+style=3D"border:0;width:1px;height:1px;" =
+/></span></td></tr></table></body></html>
+

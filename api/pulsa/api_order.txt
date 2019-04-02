@@ -1,0 +1,23 @@
+<?php
+$key = "123"; // API Key Anda
+$service = "123"; // ID Layanan
+$link = "m.fatur12"; // Target Pesanan
+$quantity = "1000"; // Jumlah Pesanan
+$postdata = "key=$key&action=order&service=$service&target=$link&quantity=$quantity";
+
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, "http://apiurl.com/api.php");
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $postdata);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+$chresult = curl_exec($ch);
+curl_close($ch);
+$json_result = json_decode($chresult, true);
+
+if ($json_result['error'] == true) {
+	echo "ORDER GAGAL, PESAN : ".$json_result['error'];
+} else {
+	echo "ORDER SUKSES, ORDER ID : ".$json_result['data']['id'];
+}
+?>

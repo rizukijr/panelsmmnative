@@ -1,0 +1,10 @@
+[30-Jul-2018 15:36:35 UTC] PHP Warning:  require(../mainconfig.php): failed to open stream: No such file or directory in /home/jerikenc/public_html/seller/admin/deposit/deposit.php on line 3
+[30-Jul-2018 15:36:35 UTC] PHP Fatal error:  require(): Failed opening required '../mainconfig.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jerikenc/public_html/seller/admin/deposit/deposit.php on line 3
+[30-Jul-2018 15:40:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jerikenc/public_html/seller/admin/deposit/deposit.php on line 142
+[30-Jul-2018 15:41:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jerikenc/public_html/seller/admin/deposit/deposit.php on line 142
+[30-Jul-2018 15:44:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jerikenc/public_html/seller/admin/deposit/deposit.php on line 142
+[30-Jul-2018 15:44:38 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jerikenc/public_html/seller/admin/deposit/deposit.php on line 142
+[30-Jul-2018 15:45:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jerikenc/public_html/seller/admin/deposit/deposit.php on line 142
+[30-Jul-2018 15:45:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jerikenc/public_html/seller/admin/deposit/deposit.php on line 142
+[30-Jul-2018 15:46:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jerikenc/public_html/seller/admin/deposit/deposit.php on line 142
+[30-Jul-2018 15:48:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jerikenc/public_html/seller/admin/deposit/deposit.php on line 142

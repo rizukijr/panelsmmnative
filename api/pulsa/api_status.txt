@@ -1,0 +1,21 @@
+<?php
+$key = "123"; // your api key
+$order_id = "123"; // your order id
+$postdata = "key=$key&action=status&id=$order_id";
+
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, "http://apiurl.com/api.php");
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $postdata);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+$chresult = curl_exec($ch);
+curl_close($ch);
+$json_result = json_decode($chresult, true);
+
+if ($json_result['error'] == true) {
+	echo "GAGAL MENGECEK ORDERAN, PESAN : ".$json_result['error'];
+} else {
+	echo "STATUS ORDER : ".$json_result['data']['status'];
+}
+?>

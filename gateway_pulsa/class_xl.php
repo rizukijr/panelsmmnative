@@ -1,0 +1,94 @@
+<?php
+function login_xl($no,$pass) {
+  $url = "https://my.xl.co.id/pre/LoginV2Rq";
+  $headers = array();
+  $headers[] = 'Host: my.xl.co.id';
+  $headers[] = 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:55.0) Gecko/20100101 Firefox/55.0';
+  $headers[] = 'Accept: application/json, text/plain, */*';
+  $headers[] = 'Accept-Language: en-US,en;q=0.5';
+  $headers[] = 'Accept-Encoding: gzip, deflate, br';
+  $headers[] = 'Content-Type: application/json';
+  $cookie = "cookies-xl.txt";
+  $post = '{"Header":null,"Body":{"Header":{"IMEI":3235581001,"ReqID":"20170913204029"},"LoginV2Rq":{"msisdn":"'.$no.'","pass":"'.$pass.'"}},"onNet":"False","sessionId":null,"staySigned":"True","serviceId":"","packageAmt":"","reloadType":"","reloadAmt":"","packageRegUnreg":"","platform":"04","onNetLogin":"YES","appVersion":"3.5.1","sourceName":"Firefox","sourceVersion":""}';
+  $ch = curl_init();
+  curl_setopt($ch, CURLOPT_URL, $url);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+  curl_setopt($ch, CURLOPT_VERBOSE, 0);
+  curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1; rv:55.0) Gecko/20100101 Firefox/55.0');
+  curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie);
+  curl_setopt($ch, CURLOPT_COOKIEJAR, $cookie);
+  curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+  curl_setopt($ch ,CURLOPT_REFERER ,'https://my.xl.co.id/pre/index1.html');
+  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+  $crot = curl_exec($ch);
+  echo $crot;
+  curl_close($ch);
+  $result = json_decode($crot);
+  $get_sessionid = $result->sessionId;
+  return $get_sessionid;
+}
+function GetLastTransaction($sessionID) {
+  $url = "https://my.xl.co.id/pre/opRetrieveContacts";
+  $headers = array();
+  $headers[] = 'Host: my.xl.co.id';
+  $headers[] = 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:55.0) Gecko/20100101 Firefox/55.0';
+  $headers[] = 'Accept: application/json, text/plain, */*';
+  $headers[] = 'Accept-Language: en-US,en;q=0.5';
+  $headers[] = 'Accept-Encoding: gzip, deflate, br';
+  $headers[] = 'Content-Type: application/json';
+  $cookie = "cookies-xl.txt";
+  $post = '{"Header":null,"Body":{"Header":{"IMEI":3235581001,"ReqID":"20170912011034"},"opRetrieveContacts":{"msisdn":"6287894166099","maxNotificationCount":"100","notificationType":""}},"sessionId":"'.$sessionID.'","onNet":"False","serviceId":"","packageAmt":"","reloadType":"","reloadAmt":"","packageRegUnreg":"","platform":"04","staySigned":"True","onNetLogin":"YES","appVersion":"3.5.1","sourceName":"Firefox","sourceVersion":""}';
+  $ch = curl_init();
+  curl_setopt($ch, CURLOPT_URL, $url);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+  curl_setopt($ch, CURLOPT_VERBOSE, 0);
+  curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1; rv:55.0) Gecko/20100101 Firefox/55.0');
+  curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie);
+  curl_setopt($ch, CURLOPT_COOKIEJAR, $cookie);
+  curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+  curl_setopt($ch ,CURLOPT_REFERER ,'https://my.xl.co.id/pre/index1.html');
+  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+  $crot = curl_exec($ch);
+  echo $crot;
+  curl_close($ch);
+  $result = json_decode($crot, true);
+  $get_sessionid = $result->sessionId;
+  return $result;
+}
+function ReadMessage($sessionID,$InboxID) {
+  $url = "https://my.xl.co.id/pre/opReadContact";
+  $headers = array();
+  $headers[] = 'Host: my.xl.co.id';
+  $headers[] = 'User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:55.0) Gecko/20100101 Firefox/55.0';
+  $headers[] = 'Accept: application/json, text/plain, */*';
+  $headers[] = 'Accept-Language: en-US,en;q=0.5';
+  $headers[] = 'Accept-Encoding: gzip, deflate, br';
+  $headers[] = 'Content-Type: application/json';
+  $cookie = "cookies-xl.txt";
+  $post = '{"Header":null,"Body":{"Header":{"IMEI":3235581001,"ReqID":"20170912011617"},"opReadContact":{"msisdn":"6287894166099","mailboxID":"'.$InboxID.'"}},"sessionId":"'.$sessionID.'","onNet":"False","serviceId":"","packageAmt":"","reloadType":"","reloadAmt":"","packageRegUnreg":"","platform":"04","staySigned":"True","onNetLogin":"YES","appVersion":"3.5.1","sourceName":"Firefox","sourceVersion":""}';
+  $ch = curl_init();
+  curl_setopt($ch, CURLOPT_URL, $url);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+  curl_setopt($ch, CURLOPT_VERBOSE, 0);
+  curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1; rv:55.0) Gecko/20100101 Firefox/55.0');
+  curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie);
+  curl_setopt($ch, CURLOPT_COOKIEJAR, $cookie);
+  curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+  curl_setopt($ch ,CURLOPT_REFERER ,'https://my.xl.co.id/pre/index1.html');
+  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+  $crot = curl_exec($ch);
+  curl_close($ch);
+  $result = json_decode($crot, true);
+  $get_sessionid = $result->sessionId;
+  return $result;
+}
+?>

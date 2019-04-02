@@ -1,0 +1,135 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Proudly Hosted by Cloud Pedia">
+    <meta name="keywords" content=" Cloud Pedia">
+    <title>Preparing to launch</title>
+
+    <!--  Favicon   -->
+    <link rel="shortcut icon" href="https://domainesia-assets.s3.amazonaws.com/cpanel-pages/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="https://domainesia-assets.s3.amazonaws.com/cpanel-pages/css/default.css">
+
+    <script type="text/javascript" src="https://domainesia-assets.s3.amazonaws.com/cpanel-pages/js/jquery-1.10.2-min.js"></script>
+    <script type="text/javascript" src="https://domainesia-assets.s3.amazonaws.com/cpanel-pages/js/jquery.validate.js"></script>
+    <script type="text/javascript" src="https://domainesia-assets.s3.amazonaws.com/cpanel-pages/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="https://domainesia-assets.s3.amazonaws.com/cpanel-pages/js/wright-custom.js"></script>
+
+    <script type="text/javascript" src="https://domainesia-assets.s3.amazonaws.com/cpanel-pages/js/jquery-animate-css-rotate-scale.js"></script>
+
+    <script type="text/javascript" src="https://domainesia-assets.s3.amazonaws.com/cpanel-pages/js/jquery.countdown.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient { filter: none; }
+      </style>
+    <![endif]-->
+
+</head>
+<body>
+
+
+<!--              Set time for countdown                -->
+<script type="text/javascript">
+
+	<!--      Documentation and Setings for countdown       -->
+	<!--       https://keith-wood.name/countdown.html        -->
+	<!--             Change them in custom.js               -->
+	target  = new Date('6/6/2014');     // /////////  Insert Time When Countdown Should Reach to 0
+</script>
+
+    <!--     Wrapper     -->
+    <div id="wrapper" class="gradient">
+
+		<!--  Header  -->
+	<div id="logoimg">
+
+        <!--  Company Logo  -->
+          
+
+	</div> <!--  End Header  -->
+
+        <!--     Background Elements     -->
+        <div class="skyelement jupiter"></div>
+        <div class="skyelement planet"></div>
+        <div class="skyelement mount"></div>
+        <div class="ccontainer">
+            <div id="clouds">
+                <div class="skyelement cloud1"></div>
+                <div class="skyelement cloud2"></div>
+            </div>
+            <div id="clouds2">
+                <div class="skyelement cloud3"></div>
+                <div class="skyelement cloud4"></div>
+                <div class="skyelement cloud5"></div>
+            </div>
+            <div id="clouds3">
+                <div class="skyelement cloud1"></div>
+                <div class="skyelement cloud2"></div>
+                <div class="skyelement cloud3"></div>
+                <div class="skyelement cloud4"></div>
+                <div class="skyelement cloud5"></div>
+            </div>
+		</div>
+        <div class="skyelement ground"></div>
+        <div class="skyelement mushroom"></div>
+        <div class="skyelement tree"></div>
+        <div class="skyelement rocket"></div>
+
+        <!--     Content Box      -->
+        <div class="skyelement content">
+
+        	<!--     Inner Box      -->
+        	<div class="inner">
+
+                <div class="chain1"></div>
+                <div class="chain2"></div>
+
+                <!--   Title for Content Box    -->
+                <h1>Under Construction</h1>
+                <h3>Our engineer is still working hard to<br>deliver the best space experience.<br><br>Please come back later.<br><br><br></h3>
+                <p id="domainesia"><a href="https://cloud-pedia.com" title="hosting indonesia">Proudly Hosted by  Cloud Pedia</a></p>
+                <!--      Countdown       -->
+                <!--<div id="countdown">
+                    <div id="imageLayout">
+                        <span class="image{d100}"></span>
+                        <span class="image{d10}"></span>
+                        <span class="image{d1}"></span>
+                        <span class="imageDay">D</span>
+                        <span class="imageSpace"></span>
+                        <span class="image{h10}"></span>
+                        <span class="image{h1}"></span>
+                        <span class="imageSep"></span>
+                        <span class="image{m10}"></span>
+                        <span class="image{m1}"></span>
+                        <span class="imageSep"></span>
+                        <span class="image{s10}"></span>
+                        <span class="image{s1}"></span>
+                    </div>
+                </div>--> <!--     End Countdown       -->
+
+                <!--     Subscribe Form     -->
+                <div id="contact-area">
+                    <!-- <form id="subscribe_email" method="POST" action="sending.php" >
+                      <p>
+                            <input type="text" name="email" id="email" placeholder="Enter your email to subscribe" />
+                        </p>
+                        <input type="submit" name="submit" value="SUBMIT" class="submit-button" />
+                    </form> -->
+                </div> <!--    End Subscribe Form     -->
+
+			</div> <!--    End Inner Box      -->
+
+        </div> <!--    End Content Box      -->
+
+    </div> <!--    End Wrapper     -->
+
+
+    <div id="footer"></div>
+
+</body>
+</html>

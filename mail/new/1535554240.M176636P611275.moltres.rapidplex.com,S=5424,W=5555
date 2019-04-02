@@ -1,0 +1,131 @@
+Return-Path: <>
+Delivered-To: famediak@moltres.rapidplex.com
+Received: from moltres.rapidplex.com
+	by moltres.rapidplex.com with LMTP id KA9uCsCyhlvLUwkA5gKwhQ
+	for <famediak@moltres.rapidplex.com>; Wed, 29 Aug 2018 21:50:40 +0700
+Return-path: <>
+Envelope-to: famediak@moltres.rapidplex.com
+Delivery-date: Wed, 29 Aug 2018 21:50:40 +0700
+Received: from anteater.oak.relay.mailchannels.net ([23.83.215.3]:54123)
+	by moltres.rapidplex.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1fv1nq-002Yws-O2
+	for famediak@moltres.rapidplex.com; Wed, 29 Aug 2018 21:50:40 +0700
+Received: by relay.mailchannels.net (Postfix)
+	id EA076124285; Wed, 29 Aug 2018 14:49:55 +0000 (UTC)
+Date: Wed, 29 Aug 2018 14:49:55 +0000 (UTC)
+From: MAILER-DAEMON@mailchannels.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: famediak@moltres.rapidplex.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="2B5A0123907.1535554195/relay.mailchannels.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20180829144955.EA076124285@relay.mailchannels.net>
+X-Spam-Status: No, score=1.9
+X-Spam-Score: 19
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "moltres.rapidplex.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  This is the mail system at host relay.mailchannels.net. I'm
+    sorry to have to inform you that your message could not be delivered to one
+    or more recipients. It's attached below. For further assistance,
+ 
+ Content analysis details:   (1.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL blocklist
+                             [URIs: famediaku.xyz]
+  0.0 URIBL_PH_SURBL         Contains an URL listed in the PH SURBL blocklist
+                             [URIs: famediaku.xyz]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--2B5A0123907.1535554195/relay.mailchannels.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host relay.mailchannels.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<admin@famediaku.xyz>: host famediaku.xyz[103.112.162.147] said: 550 No Such
+    User Here (in reply to RCPT TO command)
+
+--2B5A0123907.1535554195/relay.mailchannels.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+Content-Transfer-Encoding: 8bit
+
+Reporting-MTA: dns; relay.mailchannels.net
+X-Postfix-Queue-ID: 2B5A0123907
+X-Postfix-Sender: rfc822; famediak@moltres.rapidplex.com
+Arrival-Date: Wed, 29 Aug 2018 14:49:12 +0000 (UTC)
+
+Final-Recipient: rfc822; admin@famediaku.xyz
+Original-Recipient: rfc822;admin@famediaku.xyz
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; famediaku.xyz
+Diagnostic-Code: smtp; 550 No Such User Here
+
+--2B5A0123907.1535554195/relay.mailchannels.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <famediak@moltres.rapidplex.com>
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 2B5A0123907
+	for <admin@famediaku.xyz>; Wed, 29 Aug 2018 14:49:12 +0000 (UTC)
+Received: from moltres.rapidplex.com (unknown [100.96.28.19])
+	(Authenticated sender: nlkw2k8yjw)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 4EEAD124081
+	for <admin@famediaku.xyz>; Wed, 29 Aug 2018 14:49:11 +0000 (UTC)
+X-Sender-Id: nlkw2k8yjw|x-authuser|famediak@moltres.rapidplex.com
+Received: from moltres.rapidplex.com (moltres.rapidplex.com [172.104.183.40])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384)
+	by 0.0.0.0:2500 (trex/5.16.2);
+	Wed, 29 Aug 2018 14:49:12 +0000
+X-MC-Relay: Neutral
+X-MailChannels-SenderId: nlkw2k8yjw|x-authuser|famediak@moltres.rapidplex.com
+X-MailChannels-Auth-Id: nlkw2k8yjw
+X-Interest-Wide-Eyed: 060742ba206f188d_1535554151806_3616553508
+X-MC-Loop-Signature: 1535554151806:2849264400
+X-MC-Ingress-Time: 1535554151806
+Received: from famediak by moltres.rapidplex.com with local (Exim 4.91)
+	(envelope-from <famediak@moltres.rapidplex.com>)
+	id 1fv1mO-002YnD-JT
+	for admin@famediaku.xyz; Wed, 29 Aug 2018 21:49:08 +0700
+To: 
+Subject: Verification Code Account Famediaku Anda.
+X-PHP-Script: panel.famediaku.net/register.php for 223.255.230.14, 172.104.183.40
+X-PHP-Filename: /home/famediak/panel.famediaku.net/register.php REMOTE_ADDR: 172.104.183.40
+From:admin@famediaku.xyz 
+Cc:admin@famediaku.xyz 
+MIME-Version: 1.0
+Content-type: text/html
+Message-Id: <E1fv1mO-002YnD-JT@moltres.rapidplex.com>
+Date: Wed, 29 Aug 2018 21:49:08 +0700
+X-AuthUser: famediak@moltres.rapidplex.com
+
+Selamat datang di Famediaku!. Kode verifikasi Anda <b>9546580393</b>
+
+--2B5A0123907.1535554195/relay.mailchannels.net--

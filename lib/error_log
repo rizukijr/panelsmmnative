@@ -1,0 +1,33 @@
+[27-Jan-2018 06:08:05 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/akapedi1/public_html/lib/jam.php on line 16
+[27-Jan-2018 06:08:05 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/akapedi1/public_html/lib/jam.php on line 37
+[27-Jan-2018 06:08:05 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/akapedi1/public_html/lib/jam.php on line 39
+[27-Jan-2018 06:08:05 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/akapedi1/public_html/lib/jam.php on line 65
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 9
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 10
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 11
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_webname in /home/jerikenc/public_html/seller/lib/header.php on line 40
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 42
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 43
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 44
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 45
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 46
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 47
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 48
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 51
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 52
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 53
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 54
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 55
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 57
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 58
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 59
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 74
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 99
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: logo_white in /home/jerikenc/public_html/seller/lib/header.php on line 99
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: logo_blue in /home/jerikenc/public_html/seller/lib/header.php on line 99
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 236
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 240
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 244
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 251
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 255
+[29-Jul-2018 07:51:34 UTC] PHP Notice:  Undefined variable: cfg_baseurl in /home/jerikenc/public_html/seller/lib/header.php on line 259

@@ -1,0 +1,6 @@
+[25-Nov-2017 11:33:13 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/payz/public_html/lib/database.php on line 6
+[25-Nov-2017 11:33:20 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/payz/public_html/lib/database.php on line 6
+[15-Dec-2017 10:41:17 Asia/Jakarta] PHP Notice:  Undefined index: pid in /home/akapedia/public_html/admin/service/add.php on line 25
+[15-Dec-2017 10:41:57 Asia/Jakarta] PHP Notice:  Undefined index: pid in /home/akapedia/public_html/admin/service/add.php on line 25
+[22-Dec-2017 13:57:35 Asia/Jakarta] PHP Notice:  Undefined index: pid in /home/akapedia/public_html/admin/service/add.php on line 25
+[22-Dec-2017 13:59:41 Asia/Jakarta] PHP Notice:  Undefined index: pid in /home/akapedia/public_html/admin/service/add.php on line 25
